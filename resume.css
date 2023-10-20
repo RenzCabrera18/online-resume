@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: gray;
+}
+
+.container {
+    background-color: aliceblue;
+    max-width: 1000px;
+    margin: 60px auto;
+    height: 1450px;
+    padding: 20px;
+
+}
+
+.header {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+
+}
+
+.header h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+li {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.image {
+    width: 600px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding: 30px;
+}
+
+.left p {
+    line-height: 2;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.left ul li {
+    line-height: 2;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.info {
+    display: block;
+    background: darkblue;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+h2 {
+    background: darkcyan;
+    padding: 15px;
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+
+}
+
+.right {
+    flex: 1;
+    padding: 30px;
+
+}
+
+.right h2{
+    line-height: 1;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.right ul li{
+    line-height: 2;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.image img {
+    width: 35%;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.profile-info {
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 15px;
+    line-height: 2;
+    font-weight: bold;
+}
